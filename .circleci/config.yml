@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./Users.postman_collection.json
-          environment: ./my-remote-api-testing.postman_environment.json
+          collection: ./users.postman_collection.json
+          environment: ./circleci_walkthrough.postman_environment.json
 workflows: null
